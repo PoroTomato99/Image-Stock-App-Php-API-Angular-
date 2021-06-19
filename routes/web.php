@@ -17,3 +17,5 @@ Route::get('/poto');
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::view('/upload', 'upload');
