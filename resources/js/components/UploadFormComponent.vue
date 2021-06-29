@@ -1,6 +1,6 @@
 
 <template>
-    <div class="container">
+    <div class="container col-md-offset-2 col-md-8">
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
@@ -74,3 +74,9 @@
         }
     }
 </script>
+
+<style scoped>
+.container{
+    padding-top: 80px;
+}
+</style>

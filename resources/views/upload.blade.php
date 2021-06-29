@@ -9,15 +9,21 @@
 
 {{-- not sure why default bootstrap cant use --}}
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-
+<style>
+    html, body {
+        height: 100%;
+    }
+    #app{
+        height: 100%;
+    }
+</style>
 </head>
 <body>
     <div id="app">
-        <upload-form></upload-form>
-     </div>
+        <base-app></base-app>
+    </div>
 
-
-     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/app.js') }}" defer></script>
    
 </body>
 </html>
